@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emoji</title>
+    <style>
+        #face {
+            margin-left: 40%;
+            background-color: yellow;
+            border: 2px solid;
+            width: 300px;
+            height: 300px;
+            display: flex;
+            border-color: rgb(221, 199, 33);
+            border-radius: 50%;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        #eyebrow {
+            display: flex;
+
+            border-color: black;
+        }
+
+        #mouth {
+
+            position: absolute;
+            background-color: firebrick;
+            top: 180px;
+            width: 130px;
+            height: 60px;
+            margin-top: 20px;
+            border-bottom-left-radius: 90px;
+            border-bottom-right-radius: 90px;
+            overflow: hidden;
+        }
+
+        #toungue {
+
+            position: absolute;
+            background-color: red;
+
+            top: -1px;
+            margin-left: 28px;
+            width: 70px;
+            height: 30px;
+            margin-top: 37px;
+            border-top-left-radius: 90px;
+            border-top-right-radius: 90px;
+
+
+
+        }
+
+        #eyes {
+
+            position: relative;
+            top: -40px;
+            display: flex;
+            padding-bottom: 35px;
+            margin-left: -10px;
+
+        }
+
+        #eye1 {
+            position: relative;
+            width: 55px;
+            height: 55px;
+            display: block;
+            background-color: black;
+            margin: 0px 14px;
+            border-radius: 50%;
+            margin-left: 15px;
+
+        }
+
+        #cheek-left {
+            position: absolute;
+            width: 45px;
+            height: 45px;
+            display: block;
+            background-color: rgb(228, 102, 102);
+            margin: 0px 14px;
+            margin-left: -170px;
+            border-radius: 50%;
+            box-shadow: 0px 0px 40px rgb(228, 102, 102);
+            background-image: radial-gradient(rgb(224, 9, 9), rgb(248, 176, 176));
+
+
+        }
+
+        #cheek-right {
+            position: absolute;
+            width: 45px;
+            height: 45px;
+            display: block;
+            background-color: rgb(236, 62, 62);
+            margin: 0px 14px;
+            margin-left: 180px;
+            border-radius: 50%;
+            box-shadow: 0px 0px 40px rgb(228, 102, 102);
+            background-image: radial-gradient(rgb(224, 9, 9), rgb(248, 176, 176));
+
+
+
+
+        }
+
+        #eye2 {
+            position: relative;
+            width: 55px;
+            height: 55px;
+            display: block;
+            background-color: black;
+            margin: 0px 14px;
+
+            border-radius: 100%;
+        }
+
+        #eyeball1 {
+            position: relative;
+            width: 25px;
+            height: 25px;
+            display: block;
+            background-color: white;
+            margin: 0px 14px;
+            margin-top: 10px;
+            margin-left: 0px;
+            border-radius: 100%;
+        }
+
+        #eyes {
+
+            position: relative;
+            top: -40px;
+            display: flex;
+            padding-bottom: 35px;
+            margin-left: -10px;
+
+        }
+
+        #eye1 {
+            position: relative;
+            width: 55px;
+            height: 55px;
+            display: block;
+            background-color: black;
+            margin: 0px 14px;
+            border-radius: 50%;
+            margin-left: 15px;
+            box-shadow: 4px 4px blue;
+
+        }
+
+        #eye2 {
+            position: relative;
+            width: 55px;
+            height: 55px;
+            display: block;
+            background-color: black;
+            margin: 0px 14px;
+
+            border-radius: 100%;
+            box-shadow: 4px 4px blue;
+        }
+
+        #eyeball1 {
+            position: relative;
+            width: 25px;
+            height: 25px;
+            display: block;
+            background-color: white;
+            margin: 0px 14px;
+            margin-top: 10px;
+            margin-left: 6px;
+            border-radius: 100%;
+        }
+
+        #eyeball2 {
+            position: relative;
+            width: 25px;
+            height: 25px;
+            display: block;
+            background-color: white;
+            margin: 0px 14px;
+            margin-top: 10px;
+            margin-left: 6px;
+
+            border-radius: 100%;
+        }
+
+        #nose {
+            background-color: black;
+            position: absolute;
+            width: 15px;
+            height: 30px;
+            border-radius: 100%;
+            margin-left: -10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="head">
+        <div id="face">
+            <div id="eyes">
+
+                <div id="eye1">
+                    <div id="eyeball1"></div>
+                </div>
+                <div id="eye2">
+                    <div id="eyeball2"> </div>
+                </div>
+            </div>
+
+            <div id="cheek-left"></div>
+
+
+            <div id="nose"></div>
+
+
+            <div id="cheek-right"></div>
+
+            <div id="mouth">
+                <div id="toungue"></div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
